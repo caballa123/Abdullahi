@@ -1,145 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CA252</title>
-
-<style>
-
-body{
-    margin:0;
-    padding:0;
-    background:#6c92e4;
-    font-family:Arial, sans-serif;
-}
-
-.container{
-    width:85%;
-    margin:40px auto;
-    background:#eee;
-    border-radius:15px;
-    overflow:hidden;
-    padding:10px;
-}
-
-/* HEADER */
-.header{
-    background:#9acd32;
-    text-align:center;
-    padding:20px;
-    font-size:40px;
-    font-weight:bold;
-}
-
-/* NAV + BODY */
-.main{
-    display:flex;
-}
-
-/* NAVIGATION */
-.nav{
-    width:40%;
-    background:#c86418;
-    padding:20px;
-}
-
-.nav a{
-    display:block;
-    color:blue;
-    text-decoration:none;
-    font-size:22px;
-    margin-bottom:20px;
-}
-
-/* BODY */
-.body-content{
-    width:60%;
-    background:#cc6666;
-    color:white;
-    padding:20px;
-}
-
-.body-content h1{
-    font-size:50px;
-    margin-top:0;
-}
-
-.body-content p{
-    font-size:24px;
-}
-
-/* FOOTER */
-.footer{
-    background:orange;
-    text-align:center;
-    padding:25px;
-    font-size:25px;
-}
-
-/* MOBILE */
-@media(max-width:768px){
-
-.main{
-    flex-direction:row;
-}
-
-.nav{
-    width:40%;
-}
-
-.body-content{
-    width:60%;
-}
-
-.body-content h1{
-    font-size:35px;
-}
-
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CA252</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<div class="container">
+    <header>
+        <h1>Welcome to CA252</h1>
+    </header>
 
-    <!-- HEADER -->
-    <div class="header">
-        Welcome to CA252
-    </div>
-
-    <!-- NAV + BODY -->
-    <div class="main">
-
-        <!-- NAV -->
-        <div class="nav">
+    <div class="wrapper">
+        <nav class="nav">
             <a href="#">Home</a>
             <a href="#">about</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
-        </div>
-
-        <!-- BODY -->
-        <div class="body-content">
+        </nav>
+        
+        <main>
             <h1>Welcome to Admin page</h1>
-
             <p>You are using the System</p>
-
-            <p>
-                Do not share your email and password to any
-            </p>
-        </div>
-
+            <p>Do not share you email and password to any</p>
+        </main>
     </div>
 
-    <!-- FOOTER -->
-    <div class="footer">
+    <footer>
         All Copyright recieved by CA252
-    </div>
+    </footer>
 
-</div>
+    <div class="bottom-bar"></div>
 
 </body>
 </html>
